@@ -394,19 +394,19 @@ button {
     opacity: 0;
     }
 }
-.services_section{
+.K-Content_section{
     width: 100%;
     float: left;
     padding-bottom: 90px;
 }
-.services_taital{
+.K-Content_taital{
     width: 100%;
     float: left;
     font-size: 50px;
     color: #addaed;
     font-weight: 600;
 }
-.services_text{
+.K-Content_text{
     width: 100%;
     float: left;
     font-size: 16px;

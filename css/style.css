@@ -401,15 +401,15 @@ button {
 /* banner section end */
 
 
-/* services section start */
+/* K-Content section start */
 
-.services_section {
+.K-Content_section {
     width: 100%;
     float: left;
     padding-bottom: 90px;
 }
 
-.services_taital {
+.K-Content_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -417,7 +417,7 @@ button {
     font-weight: bold;
 }
 
-.services_text {
+.K-Content_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -425,13 +425,13 @@ button {
     margin: 0px;
 }
 
-.services_section_2 {
+.K-Content_section_2 {
     width: 100%;
     float: left;
     margin-top: 90px;
 }
 
-.services_img {
+.K-Content_img {
     width: 100%;
     float: left;
     text-align: center;
@@ -468,7 +468,7 @@ button {
 }
 
 
-/* services section end */
+/* K-Content section end */
 
 
 /* about section start */
