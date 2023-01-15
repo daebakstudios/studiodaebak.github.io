@@ -31,6 +31,42 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 <body>
+<!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+    openEffect: "none",
+    closeEffect: "none"
+    });
+         
+    $(".zoom").hover(function(){
+         
+    $(this).addClass('transition');
+    }, function(){
+         
+    $(this).removeClass('transition');
+    });
+    });
+    </script> 
+    <script>
+     function openNav() {
+     document.getElementById("myNav").style.width = "100%";
+    }
+     function closeNav() {
+     document.getElementById("myNav").style.width = "0%";
+    }
+    </script>  
   <!--header section start -->
     <div class="header_section">
       <div class="container-fluid">
@@ -81,131 +117,6 @@
         	</div>
       </div>
     </div>
-    <!-- banner section end -->
-    </div>
-    <!-- header section end -->
-    <!-- K-Content section start -->
-    <div class="K-Content_section layout_padding">
-      <div class="container">
-        <h1 class="K-Content_taital"><span>What's</span> <img src="images2/icon-1.png"> <span style="color: #1f1f1f">News?</span></h1>
-        <p class="K-Content_text">Okay. I know you may heard it. Go ahead and check what's the tea!</p>
-        <div id="main_slider" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="K-Content_section_2 layout_padding">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <div class="tiles_img"></div>
-                      <h3 class="tile_text">K-Contents</h3>
-                      <p class="lorem_text">여기에서 한국 최신 콘텐츠를 모두 찾을 수 있습니다. 당신이 찾고 있는 것이 없다면 지금 당장은 당신을 행복하게 해드릴 수 없으니 죄송합니다. 하지만 제안 상자에 자유롭게 넣어주세요! </p>
-		      <p class="lorem_text">You can find all of the Korean Newest Content here. If we don't have what you're looking for, feel free to drop it in our suggestion box!</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <div class="tiles_img_1"></div>
-                      <h3 class="tile_text">OnlyFans</h3>
-		      <p class="lorem_text">아이들은 양질의 콘텐츠를 제공하기 위해 고기를 열심히 구타하고 있습니다! 그러나 여기에 우리는 파산했고 그들의 PPV 요율을 지불할 수 없습니다. 그것을 잘 활용하십시오. 크리에이터는 우리의 구원자입니다!</p>
-                      <p class="lorem_text">The kids are beating so hard for their meat to provide quality content! But here we are, broke and can't pay their PPV rates. Make good use of it. Creators are our saviors!</p>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="K-Content_section_2 layout_padding">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <div class="tiles_img_2"></div>
-                      <h3 class="tile_text">Most Requested</h3>
-                      <p class="lorem_text">나는 당신이 이것을 기다리고 있었다는 것을 알고 있습니다! 이미 본 사람이라면 우와! 새로운 왕에게 만세!</p>
-		      <p class="lorem_text">I know that you've been waiting for this! If you've already watched this, whoah! Hail to the new king!</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <div class="tiles_img_2"></div>
-                      <h3 class="tile_text">Okay.Try this!</h3>
-                      <p class="lorem_text">나는 무엇을 찾고 있는지 모르지만... 당신은 이것을 좋아할 수도 있고..... 그렇지 않을 수도 있습니다.</p>
-                      <p class="lorem_text">I don't know whatcha looking for... but you may like this.....or not.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-	<div>
-          <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- K-Content section start -->
-    <!-- about section start -->
-    <div class="about_section layout_padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div><img src="images2/img-2.png" class="image_2"></div>
-          </div>
-          <div class="col-md-6">
-            <h1 class="K-Content_taital"><span>About </span> <img src="images2/daebaklogo-img.png"> </h1>
-	    <h1 <span style="color: #1f1f1f">Daebak Studios</span></h1>
-            <p class="ipsum_text">Just for fun</p>
-            <div class="contact_bt_1"><a href="#">READ MORE<span class="contact_padding"><img src="images2/contact-icon1.png"></span></a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- about section end -->
-    <!-- copyright section start -->
-    <div class="copyright_section">
-      <div class="container">
-        <p class="copyright_text">Daebak Studios • 2023 </p>
-      </div>
-    </div>
-    <!-- copyright section end -->
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- javascript --> 
-    <script src="js/owl.carousel.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    $(".fancybox").fancybox({
-    openEffect: "none",
-    closeEffect: "none"
-    });
-         
-    $(".zoom").hover(function(){
-         
-    $(this).addClass('transition');
-    }, function(){
-         
-    $(this).removeClass('transition');
-    });
-    });
-    </script> 
-    <script>
-     function openNav() {
-     document.getElementById("myNav").style.width = "100%";
-    }
-     function closeNav() {
-     document.getElementById("myNav").style.width = "0%";
-    }
-    </script>  
+ 
 </body>
 </html>
